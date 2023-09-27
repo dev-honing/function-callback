@@ -15,6 +15,7 @@ console.clear(); // 다음 콘솔 확인을 위한 클리닝
 function one() {
   return zero(2, 3);
 }
+console.log(one());
 
 // 1-2. function two()
 // function two(callback) {
