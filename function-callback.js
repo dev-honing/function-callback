@@ -5,3 +5,7 @@
 function zero(one, two, callback) {
   return callback(one, two);
 }
+// 1-1.
+function one(a, b) {
+  return a + b;
+}
