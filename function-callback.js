@@ -9,3 +9,7 @@ function zero(one, two, callback) {
 function one(a, b) {
   return a + b;
 }
+// 1-2.
+function two(a, b) {
+  return a - b;
+}
