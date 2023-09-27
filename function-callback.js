@@ -13,6 +13,15 @@ function one(a, b) {
 function two(a, b) {
   return a - b;
 }
+// 1-3.
+function three(a, b) {
+  return a * b;
+}
 
+function four(a, b) {
+  return a / b;
+}
 console.log(zero(1, 2, one)); // function one()을 호출하면 덧셈식이 됨
 console.log(zero(1, 2, two)); // function two()을 호출하면 뺄셈식이 됨
+console.log(zero(300, 100, three)); // function three()를 호출하면 곱셈식이 됨
+console.log(zero(300, 100, four)); // function four()를 호출하면 나눗셈식이 됨
