@@ -13,3 +13,6 @@ function one(a, b) {
 function two(a, b) {
   return a - b;
 }
+
+console.log(zero(1, 2, one)); // function one()을 호출하면 덧셈식이 됨
+console.log(zero(1, 2, two)); // function two()을 호출하면 뺄셈식이 됨
