@@ -32,5 +32,9 @@ console.clear(); // 콘솔 지우기
 console.log(
   zero(100, 200, function (one, two) {
     return one + two;
+    return one - two;
+    return one * two;
+    return one / two;
+    // 리턴문을 한 번 사용하고 나면 아래쪽 리턴문으로는 턴이 가지 않음을 확인
   })
 );
