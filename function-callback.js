@@ -17,7 +17,7 @@ function two(a, b) {
 function three(a, b) {
   return a * b;
 }
-
+// 1-4.
 function four(a, b) {
   return a / b;
 }
@@ -25,3 +25,12 @@ console.log(zero(1, 2, one)); // function one()을 호출하면 덧셈식이 됨
 console.log(zero(1, 2, two)); // function two()을 호출하면 뺄셈식이 됨
 console.log(zero(300, 100, three)); // function three()를 호출하면 곱셈식이 됨
 console.log(zero(300, 100, four)); // function four()를 호출하면 나눗셈식이 됨
+
+console.clear(); // 콘솔 지우기
+
+// 2. 함수도 넣을 수 있는지 확인
+console.log(
+  zero(100, 200, function (one, two) {
+    return one + two;
+  })
+);
